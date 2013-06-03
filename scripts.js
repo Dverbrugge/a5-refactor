@@ -1,13 +1,12 @@
 $(document).ready(function(){
-				$(".box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9").hover(
-					function(){
+			$("#container > div").hover(function(){
 						$(this).addClass("banana");
 					},
 					function(){
 						$(this).removeClass("banana");	
 					}
 				);
-				$(".box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9").click(function(){
+			$("#container > div").click(function(){
 					alert($(this).text());
 				});
 			});

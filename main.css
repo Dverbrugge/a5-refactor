@@ -14,51 +14,15 @@
 				-webkit-transition:-webkit-transform .5s, background-color .5s;
 			}
 			
-			.box1:hover {
+			.box1:hover,.box2:hover, .box3:hover, .box4:hover , .box5:hover, 
+			.box6:hover,.box7:hover, .box8:hover, .box9:hover
+			 {
 				background-color: purple;
 				transform:rotate(360deg);
 				-webkit-transform:rotate(360deg);
 			}
-			.box2:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box3:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box4:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box5:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box6:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box7:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box8:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
-			.box9:hover {
-				background-color: purple;
-				transform:rotate(360deg);
-				-webkit-transform:rotate(360deg);
-			}
+			
+			
 			.banana {
 				border:10px solid yellow;
 				width:130px;
