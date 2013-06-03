@@ -1,7 +1,7 @@
 #container {
 				width:500px;
 			}
-			.box1 {
+			.box1,.box2, .box3, .box4, .box5, .box6, .box7, .box8,.box9{
 				width:150px;
 				height:90px;
 				margin:0 10px 10px 0;
@@ -13,102 +13,7 @@
 				transition:transform .5s, background-color .5s;
 				-webkit-transition:-webkit-transform .5s, background-color .5s;
 			}
-			.box2 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box3 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box4 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box5 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box6 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box7 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box8 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
-			.box9 {
-				width:150px;
-				height:90px;
-				margin:0 10px 10px 0;
-				background-color: pink;
-				float:left;
-				text-align: center;
-				color:white;
-				padding-top:60px;
-				transition:transform .5s, background-color .5s;
-				-webkit-transition:-webkit-transform .5s, background-color .5s;
-			}
+			
 			.box1:hover {
 				background-color: purple;
 				transform:rotate(360deg);
