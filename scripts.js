@@ -4,8 +4,8 @@ $(document).ready(function(){
 					},
 					function(){
 						$(this).removeClass("banana");	
-					}
-				);
+					
+				});
 			$("#container > div").click(function(){
 					alert($(this).text());
 				});
