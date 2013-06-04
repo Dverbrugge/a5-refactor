@@ -1,7 +1,7 @@
 #container {
 				width:500px;
 			}
-			.box1,.box2, .box3, .box4, .box5, .box6, .box7, .box8,.box9{
+			.box {
 				width:150px;
 				height:90px;
 				margin:0 10px 10px 0;
@@ -13,8 +13,7 @@
 				transition:transform .5s, background-color .5s;
 				-webkit-transition:-webkit-transform .5s, background-color .5s;
 			}			
-			.box1:hover,.box2:hover, .box3:hover, .box4:hover , .box5:hover, 
-			.box6:hover,.box7:hover, .box8:hover, .box9:hover
+			.box:hover
 			 {
 				background-color: purple;
 				transform:rotate(360deg);
